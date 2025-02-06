@@ -48,12 +48,7 @@ def send_message(token, channel_id, message, proxies=None):
 if __name__ == '__main__':
     # 如需要使用代理，请配置代理（下例为示例代理），否则将 proxies 设为 None
     proxies = {
-        "https": "http://14a14daf4664c:8df3b8be0f@194.40.205.150:12324",
-        "https": "http://14a51466092b1:bad8c98aa0@212.236.127.133:12323",
-        "https": "http://14a51466092b1:bad8c98aa0@212.236.236.229:12323",
-        "https": "http://14a51466092b1:bad8c98aa0@212.236.113.118:12323",
-        "https": "http://14a51466092b1:bad8c98aa0@89.23.76.212:12323",
-        "https": "http://14a51466092b1:bad8c98aa0@212.236.216.12:12323"
+
     }
     # 如果不需要代理，请取消下面这一行注释
     # proxies = None
